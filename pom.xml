@@ -50,7 +50,6 @@
         <project.author>Vladimir Hromada</project.author>
 
         <swagger.version>2.9.2</swagger.version>
-        <mockito-junit-jupiter.version>2.23.0</mockito-junit-jupiter.version>
 
         <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
     </properties>
@@ -71,11 +70,6 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-bean-validators</artifactId>
                 <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mockito</groupId>
-                <artifactId>mockito-junit-jupiter</artifactId>
-                <version>${mockito-junit-jupiter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
