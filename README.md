@@ -1,3 +1,3 @@
-# MavenParent
+# ProjectParent
 
-Parent for maven projects
+Parent for projects

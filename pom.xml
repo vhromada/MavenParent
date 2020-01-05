@@ -11,14 +11,14 @@
         <relativePath/>
     </parent>
 
-    <groupId>cz.vhromada.maven</groupId>
-    <artifactId>parent</artifactId>
-    <version>3.0.1</version>
+    <groupId>cz.vhromada.project</groupId>
+    <artifactId>project-parent</artifactId>
+    <version>4.0.0</version>
     <packaging>pom</packaging>
 
-    <name>Maven parent</name>
-    <description>Parent for maven projects</description>
-    <url>https://github.com/vhromada/MavenParent</url>
+    <name>Project parent</name>
+    <description>Parent for projects</description>
+    <url>https://github.com/vhromada/ProjectParent</url>
 
     <licenses>
         <license>
@@ -37,9 +37,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:vhromada/MavenParent.git</connection>
-        <developerConnection>scm:git:git@github.com:vhromada/MavenParent.git</developerConnection>
-        <url>git@github.com:vhromada/MavenParent.git</url>
+        <connection>scm:git:git@github.com:vhromada/ProjectParent.git</connection>
+        <developerConnection>scm:git:git@github.com:vhromada/ProjectParent.git</developerConnection>
+        <url>git@github.com:vhromada/ProjectParent.git</url>
     </scm>
 
     <properties>
@@ -51,7 +51,7 @@
         <h2.version>1.4.198</h2.version>
         <swagger.version>2.9.2</swagger.version>
         <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
-        <kotlin-logging.version>1.7.7</kotlin-logging.version>
+        <kotlin-logging.version>1.7.8</kotlin-logging.version>
     </properties>
 
     <dependencyManagement>
