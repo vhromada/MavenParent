@@ -8,10 +8,7 @@ version = "5.0.0"
 
 dependencies {
     constraints {
-        val swaggerVersion = "3.0.0"
-        api("io.springfox:springfox-swagger-ui:$swaggerVersion")
-        api("io.springfox:springfox-swagger2:$swaggerVersion")
-        api("io.springfox:springfox-bean-validators:$swaggerVersion")
+        api("io.springfox:springfox-boot-starter:3.0.0")
         api("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
         api("io.github.microutils:kotlin-logging:1.8.3")
         api("com.h2database:h2:1.4.200")
