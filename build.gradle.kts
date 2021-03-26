@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.vhromada.project"
-version = "5.0.3"
+version = "5.0.4"
 
 dependencies {
     constraints {
@@ -13,7 +13,7 @@ dependencies {
         api("io.github.microutils:kotlin-logging:2.0.4")
         api("com.h2database:h2:1.4.200")
     }
-    api(platform("org.springframework.boot:spring-boot-dependencies:2.4.3"))
+    api(platform("org.springframework.boot:spring-boot-dependencies:2.4.4"))
 }
 
 javaPlatform {
